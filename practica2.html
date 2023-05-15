@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet">
+    
+</head>
+<body>
+ 
+    <script>
+/*Crea un objeto persona que tendrá las propiedades: nombre, apellidos, edad. También las propiedades tipo persona: padre, madre y hermanos. Crea os métodos set_padre(),
+set_madre, y add_hermano(). Luego crea la familia Stark, con Ned Stark y Catelyn Tully, y al menos los tres hermanos Rob, Jon y Sansa. Por último recorre todos los hermanos de uno de ellos y saca el nombre de sus hermanos*/
+    function ejercicio1(){
+        const persona = {nombre: "", apellido: "", edad: "";
+            set_padre(this.nombre.persona + "", this.apellido.persona + "", this.edad.persona + "");
+            set_madre(this.nombre.persona + "", this.apellido.persona + "", this.edad.persona + "")
+            add_hermano(this.nombre.persona + "", this.apellido.persona + "", this.edad.persona + ""); }
+
+        function persona(nombre,apellido,edad){
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.edad = edad;
+        }
+        const NedStark = new NedStark ("Ned", "Stark", 35)
+        const Catelyn = new Catelyn ("Catelyn", "Tully", 35)
+        const Robb  = new Robb  ("Robb", "Stark", 16)
+        const Jon = new Jon ("Catelyn", "Nieve", 16)
+        const Sansa = new Sansa ("Sansa", "Stark", 11)
+
+            /*familia Stark: Ned Stark 
+                             Catelyn Tully
+                             Robb Stark
+                             Jon Nieve
+                             Sansa Stark*/
+
+        var nombre=prompt("Introduce nombre"); 
+        var apellido=prompt("Introduce apellido");
+        var edad=prompt("Introduce edad");
+            if((num1 > num2) && (num1 > num3)){
+                document.write("Los hermanos/as son: " + persona)
+            }else if ((num2 > num1) && (num2 > num3)) {
+                document.write("El numero mayor es " + num2)
+            } else{
+                document.write("El numero mayor es " + num3)  
+            }       
+    }
+
+
+
+    function ejercicios(){
+    ejercicios = prompt ("Elige un numero del 1 al 12")
+    switch(ejercicios){
+        case "1":
+            ejercicio1();
+            break;
+        case "2":
+            ejercicio2();
+            break;
+        case "3":
+            ejercicio3();
+            break;
+        case "4":
+            ejercicio4();
+            break;
+        case "5":
+            ejercicio5();
+            break;
+        case "6":
+            ejercicio6();
+            break;
+        case "7":
+            ejercicio7();
+            break;
+        case "8":
+            ejercicio8();
+            break;
+        case "9":
+            ejercicio9();
+            break;
+        case "10":
+            ejercicio10();
+            break;
+        case "11":
+            ejercicio11();
+            break;
+        case "12":
+            ejercicio12();
+            break;
+        case "13":
+            ejercicio13();
+            break;
+        case "14":
+            ejercicio14();
+            break;
+    }
+}
+        ejercicios();
+
+    </script>
+
+</body>
+</html>

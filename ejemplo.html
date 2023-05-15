@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    Pagina  en HTML5
+    <script>
+        var ejemplo;
+        var resultado;
+        ejemplo= "Hola";
+        resultado= 3+7;
+
+        var cadena = "Esto " + " es una " + " cadena";
+        alert(cadena);
+
+        var cadena = "Buenos dias";
+        alert(cadena);
+
+        var respuesta;
+        respuesta = confirm("¿Desea cancelar la suscripción?");
+        alert("Usted ha contestado" + respuesta)
+
+        var inicio = "Hola  ", nombre, apellido;
+        nombre= prompt("¿Cual es tu nombre? ", "Nombre ");
+        apellido= prompt("¿Cual es tu apellido? ", " Apellido ");
+        alert(inicio + nombre + " " + apellido ); 
+
+        edad = 25;
+        mas = parseInt(edad) + 10;
+        edad2 = parseInt(edad)/ 2;
+        alert("Tu edad es " + edad)
+        alert("Tu edad a la mitad es " + edad2)
+
+        var auxsalir = " ";
+        var array = new Array();
+        var i = 0;
+        while (auxsalir != "exit") {
+            auxsalir=prompt("Introduce palabras hasta poner exit");
+            array[i]= auxsalir;
+            i++;
+        }
+        
+        document.write(array);
+
+
+    </script>
+ 
+<script>
+    
+    var numero = 11;
+    
+    if(numero%2==0){
+        
+        alert("El número "+numero+" es par");
+    
+    }else{
+        
+        alert("El número "+numero+" es impar");
+        
+    }
+
+</script>
+
+
+</body>
+</html>
